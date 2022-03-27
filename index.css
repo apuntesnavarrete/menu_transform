@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.Icono{
+    border: 1px solid black;
+    padding: 10px;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style: none;
+    border: 1px solid black;
+    padding: 80px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.oculto{
+    transform: translate(0, -110%);
+    transition: all 1s;
+}
+.visible{
+    transform: translate(0, 0);
+    transition: all 1s;
+}
